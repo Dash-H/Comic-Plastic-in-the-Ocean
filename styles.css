@@ -49,9 +49,6 @@ img{
     padding: 0 50px;
 }
 
-/*.fa-gem{
-    margin-right: 0.5rem;
-}*/
 
 .navbar__menu{
     display: flex;
@@ -167,13 +164,13 @@ img{
     display: table;
 }
 .source__links a{
-    color:#131311;
+    color:#0887ca;
     align-items:left;
     justify-content: left;
     text-decoration: none;
 }
 
 .source__links a:hover{
-    color: #0887ca;
+    color: #131311;
     transition: 0.3 ease-in;
 }
