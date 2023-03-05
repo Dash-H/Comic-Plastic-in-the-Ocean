@@ -28,6 +28,8 @@ img{
     justify-content: center;
     align-items: center;
     width: 100%;
+    padding-left: 5rem; /*included after the Project presentation*/
+    padding-right: 5rem; /*included after the Project presentation*/
 }
 
 .navbar{
@@ -177,4 +179,40 @@ img{
 .source__links a:hover{
     color: #131311;
     transition: 0.3 ease-in;
+}
+/*This section was made after the Project Presentation*/
+footer{
+    background: #0887ca;
+    height: auto;
+    width: 100%;
+    padding-top: 40px;
+    color:#fff;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.supervisors{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin: 1rem 0 3rem 0;
+}
+.supervisors li{
+    margin: 0 10px;
+}
+
+.supervisors a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.supervisors a:hover{
+        color: #131311;
+        transition: 0.3 ease-in;
+
 }
